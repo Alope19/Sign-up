@@ -19,7 +19,7 @@ body{
     flex: auto;
     height: 100vh;
 }
-.form-container{
+.container{
     flex: auto;
     width: 500px;
     background-color: rgb(189, 189, 189);
