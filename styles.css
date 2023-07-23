@@ -17,7 +17,7 @@ body{
     background-size: cover;
     background-position: center;
     flex: auto;
-    width: 400px;
+    height: 100vh;
 }
 .form-container{
     flex: auto;
@@ -33,8 +33,14 @@ body{
     flex: auto;
     background: rgba(0, 0, 0, .5);
     color: WHITE;
-    height: min(200px,20vw);
+    height: min(150px,20vw);
 }
 img{
     height: 100%;
+}
+.image-footer{
+    text-align: center;
+    color: white;
+    position: relative;
+    top:97vh;
 }
