@@ -7,9 +7,9 @@ body{
 }
 .image-container{
     display: flex;
-    flex: auto;
+    flex: 1;
     height: 100vh;
-    width: 400px;
+    width: 500px;
 }
 .image{
     background-image: url(./images/background.avif);
@@ -17,9 +17,7 @@ body{
     background-size: cover;
     background-position: center;
     flex: auto;
-    width: 500px;
-    display: flex;
-    align-items: center;
+    width: 400px;
 }
 .form-container{
     flex: auto;
@@ -30,11 +28,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top:20%;
     flex: auto;
     background: rgba(0, 0, 0, .5);
     color: WHITE;
-    height: 20%;
+    height: min(200px,20vw);
 }
 img{
-    height: 100%;;
+    height: 100%;
 }
