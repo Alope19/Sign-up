@@ -18,6 +18,8 @@ body{
     background-position: center;
     flex: auto;
     width: 500px;
+    display: flex;
+    align-items: center;
 }
 .form-container{
     flex: auto;
@@ -25,10 +27,14 @@ body{
     background-color: rgb(189, 189, 189);
 }
 .card-heading{
-    position: relative;
-    top: 50%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
     background: rgba(0, 0, 0, .5);
     color: WHITE;
-    font-size: 1.5rem;
+    height: 20%;
+}
+img{
+    height: 100%;;
 }
