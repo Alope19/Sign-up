@@ -46,7 +46,7 @@ img{
     color: white;
     position: relative;
     top:98vh;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 form{
     display: flex;
@@ -67,11 +67,32 @@ form{
     gap: 40px
 }
 .top-text{
-    font-size: min(25px,5vw);
+    font-size:20px;
     font-weight: 550;
 
 }
 .middle{
     background-color: white;
     box-shadow: 2px 2px 10px 2px gray ;
+    display: flex;
+    flex-direction: column;
+}
+.middle-title{
+    padding-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.form-container{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 500px;
+}
+label{
+    display: block;
+}
+.form-input{
+
 }
