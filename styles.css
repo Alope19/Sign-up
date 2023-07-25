@@ -37,6 +37,8 @@ body{
     background: rgba(0, 0, 0, .5);
     color: WHITE;
     height: min(150px,20vw);
+    font-family: norse-bold;
+    font-size: xxx-large;
 }
 img{
     height: 100%;
@@ -46,7 +48,7 @@ img{
     color: white;
     position: relative;
     top:98vh;
-    font-size: 0.7em;
+    font-size: 14px;
 }
 form{
     display: flex;
@@ -92,7 +94,45 @@ form{
 }
 label{
     display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
-.form-input{
-
+input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px
+}
+input:focus{
+    box-shadow: 1px 1px 1px 1px gray;
+}
+input:valid{
+    outline-color: rgb(172, 172, 255);
+    box-shadow: 1px 1px 2px gray;
+}
+input:invalid{
+    outline-color: red;
+}
+button{
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #596D48;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}
+p{
+    font-size: large;
+}
+@font-face {
+    font-family: norse-bold;
+    src: url(./Fonts/Norse-Bold.otf);
 }
